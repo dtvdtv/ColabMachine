@@ -1,5 +1,13 @@
-Try out deep learning models online on Colab with a single click.
+Colab에서 머신러닝 바로 실행하기 - 인터넷에서 예제그림, 동영상, 모델 자동으로 받아서 실행되는것들
 
+Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익히기 
+## Object Detection, Segmentation
+* Tensorflow object detection: FasterRCNN+InceptionResNet and ssd+mobilenet
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/dtvdtv/ColabMachine/blob/master/YOLACT.ipynb)
+* Real-time instance segmentation with [YOLACT](https://github.com/dbolya/yolact) on Youtube videos
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/dtvdtv/ColabMachine/blob/master/object_detection.ipynb)
+
+기타 예제들
 ## TTS
 * An English female voice ([LJSpeech](https://keithito.com/LJ-Speech-Dataset/)) demo using [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2) and [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/NVidia_Tacotron2_Waveglow.ipynb)
