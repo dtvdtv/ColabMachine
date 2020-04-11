@@ -1,14 +1,14 @@
 Colab에서 머신러닝 바로 실행하기 - 인터넷에서 예제그림, 동영상, 모델 자동으로 받아서 실행되는것들
 
 Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익히기 
-## Object Detection, Segmentation
+## Object Detection, Segmentation 
 * Tensorflow object detection: FasterRCNN+InceptionResNet and ssd+mobilenet
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/dtvdtv/ColabMachine/blob/master/YOLACT.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/object_detection.ipynb)
 * Real-time instance segmentation with [YOLACT](https://github.com/dbolya/yolact) on Youtube videos
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/dtvdtv/ColabMachine/blob/master/object_detection.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/YOLACT.ipynb)
 
-기타 예제들
-## TTS
+## 기타 예제들
+# TTS
 * An English female voice ([LJSpeech](https://keithito.com/LJ-Speech-Dataset/)) demo using [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2) and [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/NVidia_Tacotron2_Waveglow.ipynb)
 * An English female voice ([LJSpeech](https://keithito.com/LJ-Speech-Dataset/)) demo using [Rayhane-mamah/Tacotron-2](https://github.com/Rayhane-mamah/Tacotron-2) and [r9y9/wavenet_vocoder](https://github.com/r9y9/wavenet_vocoder)
@@ -28,7 +28,7 @@ Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익�
 * Official [ESPnet](https://github.com/espnet/espnet) English/Chinese/Japanese TTS notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/espnet/notebook/blob/master/tts_realtime_demo.ipynb)
 
 
-## Speech Recognition
+# Speech Recognition
 * [mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech) with LM on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/MozillaDeepSpeech.ipynb)
 * Wav2Letter+ from [NVIDIA/OpenSeq2Seq](https://github.com/NVIDIA/OpenSeq2Seq.git) without LM on Youtube videos
@@ -39,9 +39,7 @@ Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익�
 * Official [ESPnet](https://github.com/espnet/espnet) Spanish->English speech translation notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/espnet/notebook/blob/master/st_demo.ipynb)
 
 
-## Object Detection
-* Tensorflow object detection: FasterRCNN+InceptionResNet and ssd+mobilenet
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/object_detection.ipynb)
+# Object Detection
 * Cascade RCNN demo using [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/Open_MMLab_Detection_Toolbox_Cascade_RCNN.ipynb)
 * YOLO demo using [ayooshkathuria/pytorch-yolo-v3](https://github.com/ayooshkathuria/pytorch-yolo-v3)
@@ -62,7 +60,7 @@ Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익�
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CenterNet_ObjectsAsPoints_3D.ipynb)
   * works only on a Kitti image because of camera parameters
 
-## Segmentation
+# Segmentation
 * For Mask RCNN, see [Object Detection](https://github.com/tugstugi/dl-colab-notebooks#object-detection)
 * Semantic segmentation trained on [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/) using [CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CSAILVision_SemanticSegmentation.ipynb)
@@ -72,18 +70,16 @@ Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익�
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/SiamMask.ipynb)
 * Real-time semantic segmentation with [LightNet++](https://github.com/ansleliu/LightNetPlusPlus) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/LightNetPlusPlus.ipynb)
-* Real-time instance segmentation with [YOLACT](https://github.com/dbolya/yolact) on Youtube videos
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/YOLACT.ipynb)
 * Instance segmentation with [CenterMask](https://github.com/youngwanLEE/CenterMask/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CenterMask.ipynb)
 
 
-## Multi Object Tracking
+# Multi Object Tracking
 * Pedestrian tracking using [ZQPei/deep_sort_pytorch](https://github.com/ZQPei/deep_sort_pytorch) (DeepSORT + YOLOv3)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/DeepSORT_YOLOv3.ipynb)  
 
 
-## Pose Detection
+# Pose Detection
 * [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/OpenPose.ipynb)
 * [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) on Youtube videos
@@ -97,7 +93,7 @@ Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익�
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/TorchvisionPersonKeypoint.ipynb)
 
 
-## Scene Text Detection
+# Scene Text Detection
 * [PixelLink](https://github.com/ZJULearning/pixel_link) demo notebook
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/PixelLink.ipynb)
 * Scene text detection using [argman/EAST](https://github.com/argman/EAST)
@@ -106,7 +102,7 @@ Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익�
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CRAFT.ipynb)
 
 
-## GAN
+# GAN
 * BigGAN [Large Scale GAN Training for High Fidelity Natural Image Synthesis](https://arxiv.org/abs/1809.11096)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/biggan_generation_with_tf_hub.ipynb)  
 * [DeOldify](https://github.com/jantic/DeOldify): A Deep Learning based project for colorizing and restoring old images
@@ -114,7 +110,7 @@ Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익�
   * deoldify a video [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jantic/DeOldify/blob/master/VideoColorizerColab.ipynb)
 
 
-## Misc
+# Misc
 * Slow motion using [avinashpaliwal/Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/SuperSloMo.ipynb)
 * Finetune GPT2 [ak9250/gpt-2-colab](https://github.com/ak9250/gpt-2-colab/) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ak9250/gpt-2-colab/blob/master/GPT_2.ipynb)
