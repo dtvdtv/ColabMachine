@@ -1,13 +1,26 @@
 Colab에서 머신러닝 바로 실행하기 - 인터넷에서 예제그림, 동영상, 모델 자동으로 받아서 실행되는것들
 
-Colab logo를 누르고 run all을 하면 결과를 바로 보며 딥러닝 익히기 
-## Object Detection, Segmentation, Multi Object Tracking 
+Colab logo를 누르고 메뉴에서 run all을 하면 딥러닝 실행 및 결과 확인가능
+## Object Detection, Segmentation, Multi Object Tracking, GAN 
 * Tensorflow object detection: FasterRCNN+InceptionResNet and ssd+mobilenet
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/object_detection.ipynb)
 * Real-time instance segmentation with [YOLACT](https://github.com/dbolya/yolact) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/YOLACT.ipynb)
 * Pedestrian tracking using [ZQPei/deep_sort_pytorch](https://github.com/ZQPei/deep_sort_pytorch) (DeepSORT + YOLOv3)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/DeepSORT_YOLOv3.ipynb)  
+* Semantic segmentation trained on [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/) using [CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CSAILVision_SemanticSegmentation.ipynb)
+* Fast tracking and segmentation with [SiamMask](https://github.com/foolwood/SiamMask) on Youtube videos
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/SiamMask.ipynb)
+* Instance segmentation with [CenterMask](https://github.com/youngwanLEE/CenterMask/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CenterMask.ipynb)
+* [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) on Youtube videos
+  * v0.2.0: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/AlphaPose.ipynb)
+  * v0.3.0: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/AlphaPoseV0_3_0.ipynb)
+* [DensePose](https://github.com/facebookresearch/DensePose) demo notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/DensePose.ipynb)
+* BigGAN [Large Scale GAN Training for High Fidelity Natural Image Synthesis](https://arxiv.org/abs/1809.11096)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/biggan_generation_with_tf_hub.ipynb)  
 
 ## 기타 예제들
 TTS
@@ -64,26 +77,15 @@ Object Detection
 
 Segmentation
 * For Mask RCNN, see [Object Detection](https://github.com/tugstugi/dl-colab-notebooks#object-detection)
-* Semantic segmentation trained on [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/) using [CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CSAILVision_SemanticSegmentation.ipynb)
 * [DeepLabV3](https://arxiv.org/abs/1706.05587) from [torchvision 0.3.0](https://pytorch.org/docs/stable/torchvision/index.html)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/TorchvisionDeepLabV3.ipynb)
-* Fast tracking and segmentation with [SiamMask](https://github.com/foolwood/SiamMask) on Youtube videos
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/SiamMask.ipynb)
 * Real-time semantic segmentation with [LightNet++](https://github.com/ansleliu/LightNetPlusPlus) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/LightNetPlusPlus.ipynb)
-* Instance segmentation with [CenterMask](https://github.com/youngwanLEE/CenterMask/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CenterMask.ipynb)
 
 
 Pose Detection
 * [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/OpenPose.ipynb)
-* [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) on Youtube videos
-  * v0.2.0: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/AlphaPose.ipynb)
-  * v0.3.0: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/AlphaPoseV0_3_0.ipynb)
-* [DensePose](https://github.com/facebookresearch/DensePose) demo notebook
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/DensePose.ipynb)
 * HRNet using [lxy5513/hrnet](https://github.com/lxy5513/hrnet) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/HRNet_lxy5513.ipynb)
 * Keypoint R-CNN from [torchvision 0.3.0](https://pytorch.org/docs/stable/torchvision/index.html)
@@ -100,8 +102,6 @@ Scene Text Detection
 
 
 GAN
-* BigGAN [Large Scale GAN Training for High Fidelity Natural Image Synthesis](https://arxiv.org/abs/1809.11096)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/biggan_generation_with_tf_hub.ipynb)  
 * [DeOldify](https://github.com/jantic/DeOldify): A Deep Learning based project for colorizing and restoring old images
   * deoldify an image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
   * deoldify a video [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jantic/DeOldify/blob/master/VideoColorizerColab.ipynb)
